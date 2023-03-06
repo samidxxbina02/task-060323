@@ -1,13 +1,89 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(14, 140, 249) 0%,
+    rgb(215, 131, 235) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper,
+th,
+td,
+thead,
+tbody {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 1000px;
+  font-size: 25px;
+}
+
+.wrapper {
+  margin-top: 270px;
+  margin-left: 300px;
+}
+
+.navbar {
+  background-image: url("https://i.pinimg.com/564x/04/a6/99/04a699ebaf1bd0a80fd436c651212e6b.jpg");
+  height: 100px;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: baseline;
+}
+.wrapper_nav {
+  display: flex;
+
+  font-size: 30px;
+  color: aliceblue;
+  list-style-type: none;
+}
+
+.wrapper_nav li {
+  margin: 10px 10px;
+}
+
+.footer {
+  width: 100vw;
+  height: 170px;
+  background-image: url("https://i.pinimg.com/564x/ba/53/ef/ba53efe7d04e927e5f0c4fa91c6b5f86.jpg");
+  background-position: center;
+  margin-top: 220px;
+  display: flex;
+  justify-content: center;
+}
+.inp_wrapper {
+  margin-left: 1000px;
+  margin-top: 20px;
+}
+
+.inp_wrapper input {
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.inp_wrapper button {
+  height: 56px;
+  border-radius: 50%;
+}
+
+.footer p {
+  margin-top: 140px;
+  font-size: 25px;
+  background-color: black;
+  height: 30px;
+  color: aliceblue;
+  margin-left: -200px;
+}
+
+.footer span {
+  font-size: 25px;
+  background: -webkit-linear-gradient(#5572a0, #cd14c0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
